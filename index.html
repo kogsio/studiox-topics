@@ -1,1 +1,110 @@
-Coming Soon!
+<!-- 
+  ------------------------------------------------------
+
+    Connect two browsers. One will be the "leader", 
+    the other the follower. Use URLS below.
+
+    Leader URL:
+      http://localhost:3000/live.html?status=leader
+
+    Follower URL:
+      http://localhost:3000/live.html?status=follower
+
+  ------------------------------------------------------
+
+     NATIVATION MENU:
+       arrow down  (40) - start
+       arrow right (39) - next
+       arrow left  (37) - back
+       space bar   (32) - green screen
+       arrow up    (38) -  end, Q & A
+
+     CONTENT VIDEO MENU:
+       number 5 (53) - play video
+       number 6 (54) - pause video
+
+  ------------------------------------------------------
+ -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/live.css">
+</head>
+<body>
+
+<div class="grid">
+
+    <!-- ------------------------ -->
+    <!-- ---   OVERLAY PANE   --- -->
+    <!-- ------------------------ -->
+
+    <div id="overlay" style="display: none;">
+
+        <div id="overlayVideo" class="overlayImage" style="display: none;">
+            <video controls>
+                <source src="assets/video/intro.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div id="overlayImage" style="display: none;">
+            <img src="assets/img/abel_and_john_01.jpg" class="overlayImage">
+        </div>
+
+
+    </div>
+
+    <!-- ------------------------ -->
+    <!-- ---   CONTENT PANE   --- -->
+    <!-- ------------------------ -->
+
+    <div id="contentTitle">
+            <div id="contentTitleBox">
+                John & Abel
+            </div>
+    </div>
+
+    <div class="content">
+        <img src="assets/img/onair.jpg" id="contentImage" class="image" />
+    </div>
+
+    <div class="content" style="visibility:hidden;">
+        <video controls id="contentVideo">
+            <source src="assets/video/passwords.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- ----------------------- -->
+    <!-- ---   TOPICS PANE   --- -->
+    <!-- ----------------------- -->
+
+    <div class="topics">
+
+        <div class="thumbnailContainer">
+            <div class="thumbnailWrapper">
+                <img id="thumbnail" src="assets/img/thumbnails/1.jpg">
+                <div id="thumbnailCaption">IOT</div>
+            </div>
+        </div>
+
+        <div id="timer">Time</div>
+
+        <div id="topicList"></div>
+
+    </div>
+
+    <!-- ----------------------- -->
+    <!-- ---   FOOTER PANE   --- -->
+    <!-- ----------------------- -->
+
+    <div class="footer"><div class="footerTitle" id="footerTitle">Footer</div></div>
+
+</div>
+
+</body>
+
+<script src="assets/js/live.js" defer></script>
+
+</html>

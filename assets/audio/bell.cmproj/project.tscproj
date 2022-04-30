@@ -1,0 +1,157 @@
+{
+  "title" : "",
+  "description" : "",
+  "author" : "",
+  "targetLoudness" : -18.0,
+  "shouldApplyLoudnessNormalization" : true,
+  "videoFormatFrameRate" : 30,
+  "audioFormatSampleRate" : 44100,
+  "width" : 1920.0,
+  "height" : 1080.0,
+  "version" : "4.0",
+  "editRate" : 30,
+  "authoringClientName" :  {
+    "name" : "Camtasia",
+    "platform" : "Mac",
+    "version" : "2020.0.19"
+  },
+  "sourceBin" : [
+    {
+      "id" : 1,
+      "src" : "./recordings/1627677733.304148/Rec 7-30-2021.trec",
+      "rect" : [0, 0, 0, 0],
+      "lastMod" : "20210730T134200",
+      "loudnessNormalization" : true,
+      "sourceTracks" : [
+        {
+          "range" : [0, 580608],
+          "type" : 2,
+          "editRate" : 44100,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 16,
+          "numChannels" : 2,
+          "integratedLUFS" : -17.7392580280419,
+          "peakLevel" : 0.6304931640625,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20210730T134202.327370"
+      }
+    }
+  ],
+  "timeline" : {
+    "id" : 2,
+    "sceneTrack" : {
+      "scenes" : [
+        {
+          "csml" : {
+            "tracks" : [
+              {
+                "trackIndex" : 0,
+                "medias" : [
+                  {
+                    "id" : 3,
+                    "_type" : "AMFile",
+                    "src" : 1,
+                    "trackNumber" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 7-30-2021",
+                      "gain" : 1.0,
+                      "mixToMono" : true,
+                      "loudnessNormalization" : true
+                    },
+                      "channelNumber" : "0,1",
+                    "effects" : [
+                        {
+                          "effectName" : "Pitch",
+                          "bypassed" : false,
+                          "category" : "categoryAudioEffects",
+                          "parameters" : {
+                            "effectBlend" : 100.0,
+                            "pitch" : -200.0,
+                            "smoothness" : 50.0,
+                            "tightness" : 50.0
+                          }
+                        }
+                    ],
+                    "start" : 0,
+                    "duration" : 111,
+                    "mediaStart" : 58,
+                    "mediaDuration" : 111,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-Pitch-pitch" : "-200",
+                      "effectApplied" : "Pitch"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 1,
+                "medias" : [
+                ]
+              }            ]
+          }
+        }
+      ]
+    },
+    "trackAttributes" : [
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "trackHeight" : "54"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "solo" : false,
+        "metadata" : {
+          "IsLocked" : "False",
+          "trackHeight" : "54"
+        }
+      }
+    ],
+    "captionAttributes" : {
+      "enabled" : true,
+      "fontName" : "Arial",
+      "fontSize" : 32,
+      "backgroundColor" : [ 0, 0, 0, 204],
+      "foregroundColor" : [ 255, 255, 255, 255],
+      "lang" : "en",
+      "alignment" : 0,
+      "defaultFontSize" : true,
+      "opacity" : 0.5,
+      "backgroundEnabled" : true,
+      "backgroundOnlyAroundText" : true
+    },
+    "gain" : 1.0,
+    "legacyAttenuateAudioMix" : false,
+    "backgroundColor" : [ 0, 0, 0, 255],
+    "metadata" : {
+      "RecordingHeight" : "0",
+      "RecordingWidth" : "0"
+    }
+  },
+  "metadata" : {
+    "activeThemeId" : "e59eeb42-ccf0-4a36-bdf9-e630fdab686d",
+    "audiateSessionId" : "",
+    "firstMedia" : true,
+    "hasNotifiedAboutHFRMedia" : false
+  }
+}
